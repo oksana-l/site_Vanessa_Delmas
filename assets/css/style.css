@@ -1,0 +1,222 @@
+body {
+   color:#505158;
+   font-family: Optima, sans-serif;
+   font: 1.1em sans-serif;
+   justify-content: center;
+   background-color: #f2f2f2;
+}
+#wrapper {
+   margin-right: auto ;
+   margin-left:  auto;
+   max-width: 1620px;
+   display: flex;
+   justify-content: space-around;
+}
+div { 
+   flex: 1 1 0;
+   align-content: center;
+}
+h1, h2 {
+   text-align: justify;
+   margin-bottom: 50px;
+   font: 2.0em sans-serif;
+   font-weight:500;
+}
+h3, h4 {
+   text-align: center;
+   font-weight: bold;
+}
+h5 {
+   text-decoration: underline;
+}
+article {
+   text-align: justify;
+   margin: auto;
+   padding-left: 20px;
+   padding-right: 20px;
+   font-size: 1.2em;
+   line-height: 1.6em;
+}
+.container {
+   max-width: none;
+   justify-items: center;
+   justify-content: center;
+   margin: 0px;
+}
+#present {
+   justify-content: center;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   background-image:url("/assets/img/Fleur_coton.jpg");
+}
+.row {
+   justify-content: center;
+   display: flex;
+   align-items: center;
+}
+.row1 {
+   justify-content: center;
+   display: flex;
+   align-items: center;
+   margin-top: 10%;
+}
+.row2 {
+   justify-content: center;
+   display: flex;
+   align-items: center;
+   margin-top: 10%;
+}
+.row3 {
+   justify-content: center;
+   display: flex;
+   align-items: center;
+   margin-top: 10%;
+   margin-bottom: 10%;
+}
+.col {
+   justify-content: space-around;
+   align-items: center;
+}
+.col_logo {
+   justify-content: center;
+}
+.col_text {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: auto;
+   margin-left: auto;
+   margin-right: auto;
+}
+a {
+   color: #505158;
+}
+a:hover {
+   color: #505158;
+}
+.active{
+   background-color: rgba(226, 202, 191, 0.3);
+}
+nav {
+   background-color: #fae9e2;
+   position: fixed;
+   z-index: 1;
+}
+.nav-item {
+   text-align: center;
+}
+.nav-link {
+   color: #d1c500;
+   font-size: 1.5em;
+   font-weight: bold;
+}
+img {
+   width: 100%;
+}
+.logo {
+   width: 40%;
+}
+.card {
+   border: rgba(0, 0, 0, 0);
+}
+.carousel {
+   max-width: 750px;
+   height: auto;
+}
+.carousel-inner img {
+   width: 100%;
+   height: auto;
+}
+p {
+   text-align: center;
+   margin: auto;
+   font-size: 1.2em;
+   line-height: 2em;
+}
+.p1 {
+   text-align: center;
+   margin: auto;
+   font-size: 1.2em;
+   line-height: 1.6em;
+}
+.p3 {
+   padding-left: 20px;
+}
+.article {
+   margin: auto;
+   padding-top: 20px;
+   text-align: justify;
+   font-size: 1em;
+   line-height: 1.6em;
+}
+.title {
+   font-size: 1.1em ;
+   font-weight: bold;
+}
+.link {
+   border: 1px solid;
+   margin-top: 5%;
+   padding: 5px 10px 5px 10px;
+}
+.img_fix {
+   position: fixed;
+   z-index: 3;
+}
+.photo_Vanessa {
+   text-align: center;
+   flex: 1 1 0;
+ 
+}
+.photo_Vanessa1 {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.photo_Vanessa2 {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 2%;
+
+}
+.parcours {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin-top: 7%;
+   margin-bottom: auto;
+   margin-left: auto;
+   margin-right: auto;
+}
+.marque1 {
+   margin-top: 7%;
+   align-items: center;
+   justify-content: center;
+}
+.marque2 {
+   margin-top: 7%;
+   margin-bottom: 7%;
+   align-items: center;
+   justify-content: center;
+}
+
+/*.fond_color {
+   background-color: #f3ebe8;
+}*/
+footer {
+   background-color: #fae9e2;
+   text-align: center;
+   position: absolute fixed;
+   margin-top: auto;
+   bottom: 0;
+   padding: 2%;
+}
+.allButFooter {
+    min-height: calc(100vh - 124px);
+}
+.pc{
+   margin-top: 20px;
+}
