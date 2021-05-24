@@ -58,7 +58,7 @@ article {
    justify-content: center;
    display: flex;
    align-items: center;
-   margin-top: 10%;
+   margin-bottom: 10%;
 }
 .row2 {
    justify-content: center;
@@ -73,12 +73,17 @@ article {
    margin-top: 10%;
    margin-bottom: 10%;
 }
+.logo_mam {
+   width: 150%;
+}
 .col {
    justify-content: space-around;
    align-items: center;
 }
 .col_logo {
+   display: flex;
    justify-content: center;
+   align-items: center;
 }
 .col_text {
    display: flex;
@@ -134,7 +139,7 @@ p {
    line-height: 2em;
 }
 .p1 {
-   text-align: center;
+   text-align: justify;
    margin: auto;
    font-size: 1.2em;
    line-height: 1.6em;
@@ -172,16 +177,28 @@ p {
    flex-direction: column;
    align-items: center;
    justify-content: center;
+   margin-top: 3%;
 }
 .photo_Vanessa2 {
    display: flex;
    flex-direction: column;
    align-items: center;
    justify-content: center;
+   margin-top: 6%;
    margin-bottom: 2%;
 
 }
 .parcours {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin-top: 4%;
+   margin-bottom: auto;
+   margin-left: auto;
+   margin-right: auto;
+}
+.parcours1 {
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -219,4 +236,9 @@ footer {
 }
 .pc{
    margin-top: 20px;
+}
+.wrap-contact {
+   align-items: center;
+   justify-content: center;
+   text-align: center;
 }
