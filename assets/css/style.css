@@ -2,6 +2,7 @@ body {
    color:#505158;
    font-family: Optima, sans-serif;
    font: 1.1em sans-serif;
+   font-size: 100%;
    justify-content: center;
    background-color: #f2f2f2;
 }
@@ -29,6 +30,14 @@ h3, h4 {
 h5 {
    text-decoration: underline;
 }
+h1 {font-size: 3vw;}
+
+h2 {font-size: 4vw;}
+
+h3 {font-size: 3vmin;}
+
+h4 {font-size: 2.5vmin;}
+
 article {
    text-align: justify;
    margin: auto;
@@ -45,9 +54,9 @@ article {
 }
 #present {
    justify-content: center;
+   align-items: center;
    margin-top: 20px;
    margin-bottom: 20px;
-   background-image:url("/assets/img/Fleur_coton.jpg");
 }
 .row {
    justify-content: center;
@@ -115,11 +124,17 @@ nav {
    font-size: 1.5em;
    font-weight: bold;
 }
+.navbar-nav {
+   display: flex;
+}
 img {
    width: 100%;
 }
+#logo{
+   min-width: 84px;
+}
 .logo {
-   width: 40%;
+   width: 45%;
 }
 .card {
    border: rgba(0, 0, 0, 0);
@@ -170,7 +185,6 @@ p {
 .photo_Vanessa {
    text-align: center;
    flex: 1 1 0;
- 
 }
 .photo_Vanessa1 {
    display: flex;
@@ -241,4 +255,47 @@ footer {
    align-items: center;
    justify-content: center;
    text-align: center;
+}
+
+
+@media screen and (max-width: 1024px) {
+   body {
+      font-size: 90%;
+   }
+   #logo {
+      width: 84px;
+   }
+   .allButFooter {
+      min-height: calc(100vh - 190px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+   body {
+      font-size: 80%;
+   }
+   #logo {
+      width: 84px;
+   }
+   .allButFooter {
+      min-height: calc(100vh - 300px);
+  }
+  .photo_Vanessa {
+      margin-bottom: 60px;
+}
+}
+
+@media screen and (max-width: 480px) {
+   body {
+      font-size: 50%;
+   }
+  #logo {
+      width: 50px;
+   }
+  .allButFooter {
+      min-height: calc(100vh - 300px);
+   }
+   .photo_Vanessa {
+      margin-bottom: 20px;
+   }
 }
