@@ -63,7 +63,7 @@ article {
    display: flex;
    align-items: center;
 }
-.row1 {
+.logo_marque {
    justify-content: center;
    display: flex;
    align-items: center;
@@ -266,11 +266,22 @@ footer {
       width: 84px;
    }
    .allButFooter {
-      min-height: calc(100vh - 190px);
+      min-height: calc(100vh - 240px);
   }
+   .photo-Vanessa {
+      margin-bottom: 30px;
+   }
+   h2 {
+      margin-top: 60px;
+      margin-bottom: 20px;
+      font-size: 3vw;
+   }
+   h3 {font-size: 3vmin;}
+
+   h4 {font-size: 2.5vmin;}
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
    body {
       font-size: 80%;
    }
@@ -278,11 +289,44 @@ footer {
       width: 84px;
    }
    .allButFooter {
-      min-height: calc(100vh - 300px);
+      min-height: calc(100vh - 170px);
   }
-  .photo_Vanessa {
+   .photo_Vanessa {
       margin-bottom: 60px;
-}
+      margin-top: 60px;
+      margin-left: 30px;
+      margin-right: 30px;
+   }
+   h1 {
+      margin-bottom: 30px;
+      font-size: 5.5vw;
+   }
+   h2 {
+      margin-top: 30px;
+      margin-bottom: 20px;
+      font-size: 3.4vw;
+   }
+   h3 {font-size: 5vmin;}
+
+   h4 {font-size: 4.5vmin;}
+
+   article  {
+      margin-bottom: 30px;
+   }
+   .article {
+      font-size: 1.1em;
+   }
+   .art_photo {
+      margin-top: 30px;
+      margin-bottom: 30px;
+   }
+   .marque2 {
+      margin-top: 60px;
+      flex-direction: column-reverse;
+   }
+   .logo_marque {
+      margin-bottom: 5%;
+   }
 }
 
 @media screen and (max-width: 480px) {
@@ -293,9 +337,43 @@ footer {
       width: 50px;
    }
   .allButFooter {
-      min-height: calc(100vh - 300px);
+      min-height: calc(100vh - 110px);
    }
    .photo_Vanessa {
+      margin-bottom: 40px;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-top: 20px;
+   }
+   h1 {
+      margin-bottom: 30px;
+      font-size: 5.5vw;
+   }
+   h2 {
       margin-bottom: 20px;
+      font-size: 6.5vw;
+   }
+   h3 {font-size: 4vmin;}
+
+   h4 {font-size: 3.5vmin;}
+
+   h5 {font-size: 4.5vmin;}
+
+   .article, .p1 {
+      font-size: 1.6em;
+   }
+   .art_photo {
+      margin-top: 30px;
+      margin-bottom: 30px;
+   }
+   .marque {
+      font-size: 1.8em;
+   }
+   .marque2 {
+      margin-top: 60px;
+      flex-direction: column-reverse;
+   }
+   .logo_marque {
+      margin-bottom: 5%;
    }
 }
