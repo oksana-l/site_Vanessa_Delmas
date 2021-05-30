@@ -281,7 +281,7 @@ footer {
    h4 {font-size: 2.5vmin;}
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
    body {
       font-size: 80%;
    }
@@ -327,6 +327,9 @@ footer {
    .logo_marque {
       margin-bottom: 5%;
    }
+   .text_index {
+      font-size: 1.6em;
+   }
 }
 
 @media screen and (max-width: 480px) {
@@ -337,13 +340,13 @@ footer {
       width: 50px;
    }
   .allButFooter {
-      min-height: calc(100vh - 110px);
+      min-height: calc(100vh - 500px);
    }
    .photo_Vanessa {
-      margin-bottom: 40px;
+      margin-bottom: 30px;
       margin-left: 20px;
       margin-right: 20px;
-      margin-top: 20px;
+      margin-top: 10px;
    }
    h1 {
       margin-bottom: 30px;
@@ -388,6 +391,6 @@ footer {
       height: 50px;
    }
    .text_index {
-      font-size: 1.6em;
+      font-size: 2em;
    }
 }
