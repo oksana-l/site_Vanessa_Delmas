@@ -256,6 +256,10 @@ footer {
    justify-content: center;
    text-align: center;
 }
+.lien_contact {
+   font-style: italic;
+   text-decoration: underline;
+}
 
 
 @media screen and (max-width: 1024px) {
